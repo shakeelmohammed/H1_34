@@ -33,3 +33,10 @@ WebUI.setText(findTestObject('Object Repository/Cancer Search/Page_H1 Institutio
 
 WebUI.click(findTestObject('Object Repository/Cancer Search/Page_H1 Institution and Expert Profiles Opinion Leader Identification and Analysis and Scholarly Analytics/div_Search'))
 
+WebUI.delay(20)
+
+WebUI.setText(findTestObject('Cancer Search/Page_H1 Institution and Expert Profiles Opinion Leader Identification and Analysis and Scholarly Analytics/input_Name_sc-kAzzGY fXHSOY sc-cSHVUG bVKDce'), 
+    'PHD')
+
+WebUI.click(findTestObject('Cancer Search/Page_H1 Institution and Expert Profiles Opinion Leader Identification and Analysis and Scholarly Analytics/div_Search'))
+
